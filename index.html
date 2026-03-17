@@ -130,42 +130,46 @@
             </div>
         </section>
 
-        <section id="join" class="max-w-md mx-auto relative">
-            <div class="absolute inset-0 bg-cyber-green/5 rounded-3xl blur-xl pointer-events-none"></div>
+       <section id="join" class="max-w-md mx-auto relative">
+    <div class="absolute inset-0 bg-cyber-green/5 rounded-3xl blur-xl pointer-events-none"></div>
+    
+    <div class="border border-cyber-green/50 bg-cyber-card p-8 rounded-2xl relative z-10 shadow-[0_0_30px_rgba(57,255,20,0.1)]">
+        <div class="text-center mb-8">
+            <h2 class="text-2xl font-bold text-white mb-2 font-mono">DIVENTA UN PIONIERE (BETA CHIUSA)</h2>
+            <p class="text-cyber-green text-sm font-mono mb-4">Stiamo reclutando 100 Beta Tester.</p>
+            <p class="text-gray-400 text-sm leading-relaxed mb-4">
+                In cambio dei tuoi feedback per allenare l'algoritmo predittivo, otterrai una <strong class="text-white">Licenza a Vita a 49€</strong> (nessun abbonamento mensile, mai).
+            </p>
+            <p class="text-gray-500 text-xs italic">
+                *Questa è una quota simbolica una tantum per aiutarci a mantenere accesi i server dell'AI durante lo sviluppo.
+            </p>
+        </div>
+
+        <form action="https://formspree.io/f/mnjgoaeo" method="POST" class="flex flex-col gap-5">
             
-            <div class="border border-cyber-green/50 bg-cyber-card p-8 rounded-2xl relative z-10 shadow-[0_0_30px_rgba(57,255,20,0.1)]">
-                <div class="text-center mb-8">
-                    <h2 class="text-2xl font-bold text-white mb-2 font-mono">ACCESSO PIONIERI</h2>
-                    <p class="text-cyber-green text-sm font-mono mb-4">Solo 100 posti per il lancio dell'ora legale.</p>
-                    <p class="text-gray-400 text-sm">Tariffa life-time unica: <strong>49€</strong> (Nessun abbonamento mensile per la prima ondata di beta-tester).</p>
-                </div>
-
-                <form action="https://formspree.io/f/mnjgoaeo" method="POST" class="flex flex-col gap-5">
-                    
-                    <div class="flex flex-col gap-2">
-                        <label class="font-mono text-xs text-cyber-green uppercase tracking-widest">Identità Digitale (Email)</label>
-                        <input type="email" name="email" required placeholder="Inserisci la tua email..." 
-                            class="w-full bg-[#050508] border border-cyber-border p-4 text-white focus:outline-none focus:border-cyber-green transition-all font-mono placeholder-gray-600 rounded-md">
-                    </div>
-
-                    <div class="flex flex-col gap-2">
-                        <label class="font-mono text-xs text-cyber-green uppercase tracking-widest">Note Bio-Sincronizzazione</label>
-                        <textarea name="message" placeholder="Hai obiettivi specifici? (es. sonno, massa, stress)"
-                            class="w-full bg-[#050508] border border-cyber-border p-4 text-white focus:outline-none focus:border-cyber-green transition-all font-mono placeholder-gray-600 h-24 resize-none rounded-md"></textarea>
-                    </div>
-                    
-                    <input type="hidden" name="_next" value="https://readycoreos.com/success.html">
-
-                    <button type="submit" 
-                        class="w-full bg-cyber-green text-black font-bold py-4 hover:bg-white transition-all flex justify-center items-center gap-2 font-mono mt-2 rounded-md shadow-[0_0_15px_rgba(57,255,20,0.3)] hover:shadow-[0_0_25px_rgba(255,255,255,0.6)]">
-                        <i data-lucide="zap" class="w-5 h-5"></i>
-                        RICHIEDI ACCESSO BETA (49€)
-                    </button>
-                    <p class="text-center text-[10px] text-gray-600 uppercase mt-2">Nessun pagamento richiesto ora. Riceverai il link privato di invito.</p>
-                </form>
+            <div class="flex flex-col gap-2">
+                <label class="font-mono text-xs text-cyber-green uppercase tracking-widest">Identità Digitale (Email)</label>
+                <input type="email" name="email" required placeholder="Inserisci la tua email..." 
+                    class="w-full bg-[#050508] border border-cyber-border p-4 text-white focus:outline-none focus:border-cyber-green transition-all font-mono placeholder-gray-600 rounded-md">
             </div>
-        </section>
 
+            <div class="flex flex-col gap-2">
+                <label class="font-mono text-xs text-cyber-green uppercase tracking-widest">Note Bio-Sincronizzazione</label>
+                <textarea name="message" placeholder="Hai obiettivi specifici? (es. sonno, massa, stress)"
+                    class="w-full bg-[#050508] border border-cyber-border p-4 text-white focus:outline-none focus:border-cyber-green transition-all font-mono placeholder-gray-600 h-24 resize-none rounded-md"></textarea>
+            </div>
+            
+            <input type="hidden" name="_next" value="https://readycoreos.com/success.html">
+
+            <button type="submit" 
+                class="w-full bg-cyber-green text-black font-bold py-4 hover:bg-white transition-all flex justify-center items-center gap-2 font-mono mt-2 rounded-md shadow-[0_0_15px_rgba(57,255,20,0.3)] hover:shadow-[0_0_25px_rgba(255,255,255,0.6)]">
+                <i data-lucide="zap" class="w-5 h-5"></i>
+                CANDIDATI PER LA BETA (GRATIS)
+            </button>
+            <p class="text-center text-[10px] text-gray-600 uppercase mt-2">Nessun pagamento o carta di credito richiesti oggi.</p>
+        </form>
+    </div>
+</section>
         <footer class="mt-24 text-center border-t border-cyber-border pt-8">
             <p class="text-gray-600 text-sm font-mono">© 2026 ReadyCore OS. L'ingegneria del corpo umano.</p>
         </footer>
